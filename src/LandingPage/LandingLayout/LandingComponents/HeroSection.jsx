@@ -8,7 +8,7 @@ const HeroSection = () => {
           <span className="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 mr-3">New</span>
           <span className="text-sm font-medium">New Game was launched! See what's new</span>
           <svg className="w-2.5 h-2.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+            <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
           </svg>
         </a>
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Stay in the Game! </h1>
