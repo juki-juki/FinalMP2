@@ -16,9 +16,9 @@ const Hero = () => {
         <p className="text-base md:text-lg text-white my-4 md:my-6">
         Explore our diverse collection of games, handpicked for your enjoyment. Whether you're a casual gamer or a seasoned pro, there's something here for everyone.
         </p>
-        <button >
+        
             <Button/>
-        </button>
+        
       </div>
       <ShuffleGrid />
     </section>

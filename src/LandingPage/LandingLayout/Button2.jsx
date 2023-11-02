@@ -1,14 +1,6 @@
 import React from "react";
 
-const Button2 = () => {
-  return (
-   
-      <DrawOutlineButton>CATALOG</DrawOutlineButton>
-    
-  );
-};
-
-const DrawOutlineButton = ({ children, ...rest }) => {
+const Button2 = ({ children, ...rest }) => {
   return (
     <button
       {...rest}

@@ -23,7 +23,6 @@ const LLayout = () => {
         <Explore className="p-0" />
        
         <HeroSection className="p-0" />
-        {/* <PartnerLogos/> */}
         <BlogSection />
         <FacebookMessengerChat/>
         <Footer className="p-0" />
