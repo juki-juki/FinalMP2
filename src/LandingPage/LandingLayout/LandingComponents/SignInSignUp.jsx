@@ -6,15 +6,14 @@ import { auth, provider } from '../../../firebase/Firebase';
 function SignInSignUp() {
   const navigate = useNavigate();
 
-  const handleAnonymousSignIn = () => {
-    auth.signInAnonymously()
-      .then((userCredential) => {
-        const user = userCredential.user;
-        console.log("Anonymous user signed in:", user);
-      })
-      .catch((error) => {
-        console.error("Anonymous sign-in failed:", error);
-      });
+  
+  const signInAnonymously = async () => {
+    try {
+      await signInAnonymously(auth);
+      navigate("/m-layout");
+    } catch (error) {
+      console.error("Anonymous sign-in failed:", error);
+    }
   }
 
   const signInWithGoogle = async () => {
@@ -33,8 +32,6 @@ function SignInSignUp() {
       console.error("Google sign-in failed:", error);
     }
   }
-
-  
 
   return (    
         <section className="min-h-screen flex items-center justify-center">
@@ -77,7 +74,7 @@ function SignInSignUp() {
 
               <div className="mt-3 text-xs flex justify-between items-center text-[#002D74]">
                 <p>Continue as</p>
-                <button onClick={handleAnonymousSignIn} className="py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300">Guest</button>
+                <button onClick={signInAnonymously} className="py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300">Guest</button>
               </div>
             </div>
 
