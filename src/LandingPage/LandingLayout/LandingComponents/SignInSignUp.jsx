@@ -1,5 +1,5 @@
 import { signInWithPopup } from 'firebase/auth';
-import React from 'react'; // Import React
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { auth, provider } from '../../../firebase/Firebase';
 
@@ -7,10 +7,8 @@ function SignInSignUp() {
   const navigate = useNavigate();
 
   const handleAnonymousSignIn = () => {
-    
-    firebase.auth().signInAnonymously()
+    auth.signInAnonymously()
       .then((userCredential) => {
-        
         const user = userCredential.user;
         console.log("Anonymous user signed in:", user);
       })
@@ -18,17 +16,23 @@ function SignInSignUp() {
         console.error("Anonymous sign-in failed:", error);
       });
   }
+
   const signInWithGoogle = async () => {
-    const results = await signInWithPopup(auth, provider);
-    const authInfo = {
-      userID: results.user.uid,
-      name: results.user.displayName,
-      profilePhoto: results.user.photoURL,
-      isAuth: true,
-    };
-    localStorage.setItem("auth", JSON.stringify(authInfo));
-    navigate("/m-layout");
-  };
+    try {
+      const results = await signInWithPopup(auth, provider);
+      const authInfo = {
+        userID: results.user.uid,
+        name: results.user.displayName,
+        profilePhoto: results.user.photoURL,
+        email: results.user.email, 
+        isAuth: true,
+      };
+      localStorage.setItem("auth", JSON.stringify(authInfo));
+      navigate("/m-layout");
+    } catch (error) {
+      console.error("Google sign-in failed:", error);
+    }
+  }
 
   
 

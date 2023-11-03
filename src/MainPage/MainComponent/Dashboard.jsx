@@ -42,23 +42,13 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="p-4 bg-gray-100 min-h-screen flex flex-col items-center">
+    <div className="p-4 bg-gradient-to-br from-indigo-500 to-violet-300 min-h-screen flex flex-col items-center">
       {/* Add three buttons at the top */}
-      <div className="mt-4 flex justify-center">
-        <button className="px-4 py-2 rounded-lg bg-green-500 text-white mr-2">
-          Button 1
-        </button>
-        <button className="px-4 py-2 rounded-lg bg-red-500 text-white mr-2">
-          Button 2
-        </button>
-        <button className="px-4 py-2 rounded-lg bg-blue-500 text-white">
-          Button 3
-        </button>
-      </div>
+
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {currentGames.map((game, index) => (
-          <div key={index} className="bg-white p-4 rounded-lg shadow-lg flex items-center justify-center">
+          <div key={index} className=" p-4 flex items-center justify-center">
             {game}
           </div>
         ))}
