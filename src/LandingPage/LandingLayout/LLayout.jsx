@@ -5,7 +5,6 @@ import Footer from './LandingComponents/Footer';
 import Hero from './LandingComponents/Hero';
 import HeroSection from './LandingComponents/HeroSection.jsx';
 import NavigationBar from './LandingComponents/NavigationBar.jsx';
-import Explore from './LandingComponents/explore';
 
 const LLayout = () => {
  
@@ -19,7 +18,7 @@ const LLayout = () => {
       <div className='relative z-10'>
         <NavigationBar className="p-0" />
         <Hero className="p-0" />
-        <Explore className="p-0" />
+        {/* <Explore className="p-0" /> */}
         {/* <WhatWeDo /> */}
         <HeroSection className="p-0" />
         <BlogSection />
