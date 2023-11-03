@@ -1,4 +1,4 @@
-import { signInWithPopup } from 'firebase/auth';
+import { signInAnonymously, signInWithPopup } from 'firebase/auth';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { auth, provider } from '../../../firebase/Firebase';
@@ -7,9 +7,19 @@ function SignInSignUp() {
   const navigate = useNavigate();
 
   
-  const signInAnonymously = async () => {
+  const Anonymously = async () => {
     try {
       await signInAnonymously(auth);
+      const user = auth.currentUser;
+      const authInfo = {
+        userID: user.uid,
+        name: "Guest",
+        email: "guest@example.com",
+        profilePhoto: "https://i.pinimg.com/originals/f1/0f/f7/f10ff70a7155e5ab666bcdd1b45b726d.jpg",
+        isAuth: true,
+
+      };
+      localStorage.setItem("auth", JSON.stringify(authInfo));
       navigate("/m-layout");
     } catch (error) {
       console.error("Anonymous sign-in failed:", error);
@@ -74,7 +84,7 @@ function SignInSignUp() {
 
               <div className="mt-3 text-xs flex justify-between items-center text-[#002D74]">
                 <p>Continue as</p>
-                <button onClick={signInAnonymously} className="py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300">Guest</button>
+                <button onClick={Anonymously} className="py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300">Guest</button>
               </div>
             </div>
 

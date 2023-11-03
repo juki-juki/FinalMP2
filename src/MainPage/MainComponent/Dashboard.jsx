@@ -43,9 +43,6 @@ const Dashboard = () => {
 
   return (
     <div className="p-4 bg-gradient-to-br from-indigo-500 to-violet-300 min-h-screen flex flex-col items-center">
-      {/* Add three buttons at the top */}
-
-
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {currentGames.map((game, index) => (
           <div key={index} className=" p-4 flex items-center justify-center">
@@ -53,7 +50,7 @@ const Dashboard = () => {
           </div>
         ))}
       </div>
-      <div className="mt-4 flex justify-center"> {/* Horizontal pagination */}
+      <div className="mt-4 flex justify-center"> 
         <ReactPaginate
           previousLabel={'Previous'}
           nextLabel={'Next'}
