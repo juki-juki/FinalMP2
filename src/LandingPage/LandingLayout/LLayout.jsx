@@ -22,7 +22,7 @@ const LLayout = () => {
         {/* <WhatWeDo /> */}
         <HeroSection className="p-0" />
         <BlogSection />
-        {/* <FacebookMessengerChat/> */}
+        <FacebookMessengerChat/>
         <Footer className="p-0" /> 
       </div>
     </div>
