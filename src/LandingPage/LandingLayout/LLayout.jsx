@@ -1,6 +1,7 @@
 import React from 'react';
 import backgroundVideo from '../../assets/vid.mp4'; // Update this path
 import BlogSection from './BlogSection.jsx';
+import FacebookMessengerChat from './LandingComponents/FacebookMessengerChat.jsx';
 import Footer from './LandingComponents/Footer';
 import Hero from './LandingComponents/Hero';
 import HeroSection from './LandingComponents/HeroSection.jsx';
