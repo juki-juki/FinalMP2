@@ -1,6 +1,6 @@
 import React from 'react';
-import AirportSniperImage from '../../assets/airportsniper300200.webp'; // Include the appropriate file extension
-import GamePreview from './gamePreview'; // Make sure the component filename matches
+import GamePreview from '../MainComponent/gamePreview'; // Make sure the component filename matches
+import AirportSniperImage from '../games/gameimg/airportsniper300200.webp'; // Include the appropriate file extension
 
 const AirportSniper = () => {
   return (

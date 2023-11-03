@@ -1,6 +1,6 @@
 import React from 'react';
-import TrafficRacerImage from '../../assets/trafficracer2300200.webp'; // Import the image
-import GamePreview from './gamePreview';
+import GamePreview from '../MainComponent/gamePreview';
+import TrafficRacerImage from '../games/gameimg/trafficracer2300200.webp'; // Import the image
 
 const TrafficRacer = () => {
   return (

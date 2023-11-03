@@ -1,6 +1,6 @@
 import React from 'react';
-import FruitBubbleImage from '../../assets/fruitbubble300200.webp';
-import GamePreview from './gamePreview';
+import GamePreview from '../MainComponent/gamePreview';
+import FruitBubbleImage from '../games/gameimg/fruitbubble300200.webp';
 
 const FruitBubble = () => {
   return (

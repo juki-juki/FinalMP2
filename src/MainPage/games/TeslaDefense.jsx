@@ -1,6 +1,6 @@
 import React from 'react';
-import TeslaDefenseImage from '../../assets/tesladefense300200.webp'; // Include the appropriate file extension
-import GamePreview from './gamePreview'; // Ensure the component filename matches
+import GamePreview from '../MainComponent/gamePreview'; // Ensure the component filename matches
+import TeslaDefenseImage from '../games/gameimg/tesladefense300200.webp'; // Include the appropriate file extension
 
 const TeslaDefense = () => {
   return (

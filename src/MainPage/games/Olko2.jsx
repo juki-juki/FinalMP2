@@ -1,6 +1,6 @@
 import React from 'react';
-import Olko2Image from '../../assets/olko2300200.webp'; // Include the appropriate file extension
-import GamePreview from './gamePreview'; // Ensure the component filename matches
+import GamePreview from '../MainComponent/gamePreview'; // Ensure the component filename matches
+import Olko2Image from '../games/gameimg/olko2300200.webp'; // Include the appropriate file extension
 
 const Olko2 = () => {
   return (

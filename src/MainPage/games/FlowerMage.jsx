@@ -1,6 +1,6 @@
 import React from 'react';
-import FlowerMageImage from '../../assets/flowermerge300200.webp'; // 
-import GamePreview from './gamePreview';
+import GamePreview from '../MainComponent/gamePreview';
+import FlowerMageImage from '../games/gameimg/flowermerge300200.webp'; // 
 
 const FlowerMage = () => {
   return (

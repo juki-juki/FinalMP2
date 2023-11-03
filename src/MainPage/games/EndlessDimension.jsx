@@ -1,6 +1,6 @@
 import React from 'react';
-import EndlessDimensionImage from '../../assets/endless-dimensions-300.webp'; // 
-import GamePreview from './gamePreview';
+import GamePreview from '../MainComponent/gamePreview';
+import EndlessDimensionImage from '../games/gameimg/endless-dimensions-300.webp'; // 
 
 const EndlessDimension = () => {
   return (

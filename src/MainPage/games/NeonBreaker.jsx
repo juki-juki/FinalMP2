@@ -1,6 +1,6 @@
 import React from 'react';
-import NeonBreakerImage from '../../assets/airportsniper300200.webp'; // Include the appropriate file extension
-import GamePreview from './gamePreview'; // Make sure the component filename matches
+import GamePreview from '../MainComponent/gamePreview'; // Make sure the component filename matches
+import NeonBreakerImage from '../games/gameimg/airportsniper300200.webp'; // Include the appropriate file extension
 
 const NeonBreaker = () => {
   return (

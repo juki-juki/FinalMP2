@@ -1,6 +1,6 @@
 import React from 'react';
-import HuntingJackatHomeImage from '../../assets/huntingjackathome300200.webp'; // 
-import GamePreview from './gamePreview';
+import GamePreview from '../MainComponent/gamePreview';
+import HuntingJackatHomeImage from '../games/gameimg/huntingjackathome300200.webp'; // 
 
 const HuntingJackatHome = () => {
   return (

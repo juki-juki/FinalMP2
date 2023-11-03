@@ -2,13 +2,34 @@ import React, { useState } from 'react';
 import ReactPaginate from 'react-paginate';
 import AirportSniper from '../games/AirportSniper';
 import BlockDomino from '../games/BlockDomino';
+import EndlessDimension from '../games/EndlessDimension';
+import FlowerMage from '../games/FlowerMage';
+import FruitBubble from '../games/FruitBubble';
+import GalaxyShooter from '../games/GalaxyShooter';
+import HuntingJackatHome from '../games/HuntingJackatHome';
+import NeonBreaker from '../games/NeonBreaker';
+import NeonLights from '../games/NeonLights';
+import Olko2 from '../games/Olko2';
+import SquirrelConnection from '../games/SquirrelConnection';
+import TeslaDefense from '../games/TeslaDefense';
 
 const itemsPerPage = 12;
 const Dashboard = () => {
   const [currentPage, setCurrentPage] = useState(0);
   const games = [
     <BlockDomino/>,
-    <AirportSniper/>
+    <AirportSniper/>,
+    <EndlessDimension/>,
+    <FlowerMage/>,
+    <FruitBubble/>,
+    <GalaxyShooter/>,
+    <HuntingJackatHome/>,
+    <NeonBreaker/>,
+    <NeonLights/>,
+    <Olko2/>,
+    <SquirrelConnection/>,
+    <TeslaDefense/>,
+
   ];
 
   const offset = currentPage * itemsPerPage;

@@ -1,6 +1,6 @@
 import React from 'react';
-import SquirrelConnectionImage from '../../assets/squirrelconnection300200.webp';
-import GamePreview from './gamePreview';
+import GamePreview from '../MainComponent/gamePreview';
+import SquirrelConnectionImage from '../games/gameimg/squirrelconnection300200.webp';
 
 const SquirrelConnection = () => {
   return (

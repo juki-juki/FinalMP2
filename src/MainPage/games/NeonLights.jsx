@@ -1,6 +1,6 @@
 import React from 'react';
-import NeonLightsImage from '../../assets/neonlights300200.webp';
-import GamePreview from './gamePreview';
+import GamePreview from '../MainComponent/gamePreview';
+import NeonLightsImage from '../games/gameimg/neonlights300200.webp';
 
 const NeonLights = () => {
   return (

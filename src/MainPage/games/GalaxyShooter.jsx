@@ -1,6 +1,6 @@
 import React from 'react';
-import GalaxyShooterImage from '../../assets/galaxyshooter300200.webp';
-import GamePreview from './gamePreview';
+import GamePreview from '../MainComponent/gamePreview';
+import GalaxyShooterImage from '../games/gameimg/galaxyshooter300200.webp';
 
 const GalaxyShooter = () => {
   return (
