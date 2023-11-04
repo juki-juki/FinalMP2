@@ -1,15 +1,14 @@
 import React from 'react';
-import GamePreview from '../MainComponent/gamePreview';
-import HuntingJackatHomeImage from '../games/gameimg/huntingjackathome300200.webp'; // 
+import HuntingJackAtHomeImage from "../games/gameimg/huntingjackathome300200.webp"; // Include the appropriate file extension
+import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
 
-const HuntingJackatHome = () => {
+const HuntingJackAtHome = () => {
   return (
     <GamePreview
-      name="Hunting Jack at Home"
-      imageUrl={HuntingJackatHomeImage}
+      imageUrl={HuntingJackAtHomeImage}
       gameUrl="https://cdn.htmlgames.com/HuntingJackAtHome/"
     />
   );
 };
 
-export default HuntingJackatHome;
+export default HuntingJackAtHome;
