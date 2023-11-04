@@ -12,7 +12,6 @@ const NavigationBar = () => {
   const closeModal = () => {
     setIsModalOpen(false);
   };
-
   return (
     <div>
       <nav className="bg-gradient-to-br backdrop-blur-lg fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
