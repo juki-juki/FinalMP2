@@ -275,8 +275,6 @@ import PetLink from '../games/PetLink';
 import PileofTilesCon from '../games/PileofTilesCon';
 import PileofTitles from '../games/PileofTitles';
 import PinBall from '../games/PinBall';
-import PirateMysteries from '../games/PirateMysteries';
-import PirateSandTreasures from '../games/PirateSandTreasures';
 import PlaygroundDifferences from '../games/PlaygroundDifferences';
 import PlaygroundMahjong from '../games/PlaygroundMahjong';
 import PoolBilliard from '../games/PoolBilliard';
@@ -667,8 +665,8 @@ const Dashboard = () => {
     <PileofTilesCon />,
     <PileofTitles />,
     <PinBall />,
-    <PirateMysteries />,
-    <PirateSandTreasures />,
+    // <PirateMysteries />,
+    // <PirateSandTreasures />,
     <PlaygroundDifferences />,
     <PlaygroundMahjong />,
     <PoolBilliard />,
