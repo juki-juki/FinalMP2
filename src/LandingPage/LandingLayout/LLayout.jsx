@@ -6,6 +6,8 @@ import Footer from './LandingComponents/Footer';
 import Hero from './LandingComponents/Hero';
 import HeroSection from './LandingComponents/HeroSection.jsx';
 import NavigationBar from './LandingComponents/NavigationBar.jsx';
+import WhatWeDo from './LandingComponents/WhatWeDo.jsx';
+
 
 const LLayout = () => {
  
@@ -20,8 +22,9 @@ const LLayout = () => {
         <NavigationBar className="p-0" />
         <Hero className="p-0" />
         {/* <Explore className="p-0" /> */}
-        {/* <WhatWeDo /> */}
+        
         <HeroSection className="p-0" />
+        <WhatWeDo />
         <BlogSection />
         <FacebookMessengerChat/>
         <Footer className="p-0" /> 
