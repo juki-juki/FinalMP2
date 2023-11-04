@@ -1,6 +1,6 @@
 import React from 'react';
-import BugConImage from "../games/gameimg/bugconnect300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import BugConImage from "../games/gameimg/bugconnect300200.webp"; // Include the appropriate file extension
 
 const BugCon = () => {
   return (

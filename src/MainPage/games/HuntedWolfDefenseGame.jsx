@@ -1,6 +1,6 @@
 import React from 'react';
-import HuntedWolfDefenseGameImage from "../games/gameimg/Hunted Wolf Defense Game - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import HuntedWolfDefenseGameImage from "../games/gameimg/Hunted Wolf Defense Game - 512x340.jpeg"; // Include the appropriate file extension
 
 const HuntedWolfDefenseGame = () => {
   return (

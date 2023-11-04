@@ -1,6 +1,6 @@
 import React from 'react';
-import DailySudokuImage from "../games/gameimg/dailysudoku300x200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import DailySudokuImage from "../games/gameimg/dailysudoku300x200.webp"; // Include the appropriate file extension
 
 const DailySudoku = () => {
   return (

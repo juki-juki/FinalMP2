@@ -1,6 +1,6 @@
 import React from 'react';
-import SheepandWolvesImage from "../games/gameimg/sheepandwolves300.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import SheepandWolvesImage from "../games/gameimg/sheepandwolves300.webp"; // Include the appropriate file extension
 
 const SheepandWolves = () => {
   return (

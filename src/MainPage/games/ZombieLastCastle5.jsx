@@ -1,6 +1,6 @@
 import React from 'react';
-import ZombieLastCastle5Image from "../games/gameimg/Zombie Last Castle 5 - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import ZombieLastCastle5Image from "../games/gameimg/Zombie Last Castle 5 - 512x340.jpeg"; // Include the appropriate file extension
 
 const ZombieLastCastle5 = () => {
   return (

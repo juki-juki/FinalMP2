@@ -1,6 +1,6 @@
 import React from 'react';
-import Words300Image from "../games/gameimg/words300.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import Words300Image from "../games/gameimg/words300.webp"; // Include the appropriate file extension
 
 const Words300 = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import AlienInvaders2Image from "../games/gameimg/alieninvaders2300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import AlienInvaders2Image from "../games/gameimg/alieninvaders2300200.webp"; // Include the appropriate file extension
 
 const AlienInvaders2 = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import ParisHOImage from "../games/gameimg/parishiddenobjects300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import ParisHOImage from "../games/gameimg/parishiddenobjects300200.webp"; // Include the appropriate file extension
 
 const ParisHO = () => {
   return (

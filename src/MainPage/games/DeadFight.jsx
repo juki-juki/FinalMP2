@@ -1,6 +1,6 @@
 import React from 'react';
-import DeadFightImage from "../games/gameimg/Dead Fight - 512x384.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import DeadFightImage from "../games/gameimg/Dead Fight - 512x384.jpeg"; // Include the appropriate file extension
 
 const DeadFight = () => {
   return (

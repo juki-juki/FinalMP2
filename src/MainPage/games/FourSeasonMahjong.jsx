@@ -1,6 +1,6 @@
 import React from 'react';
-import FourSeasonMahjongImage from "../games/gameimg/fourseasonsmahjong300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import FourSeasonMahjongImage from "../games/gameimg/fourseasonsmahjong300200.webp"; // Include the appropriate file extension
 
 const FourSeasonMahjong = () => {
   return (

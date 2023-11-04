@@ -1,6 +1,6 @@
 import React from 'react';
-import CityFuseImage from "../games/gameimg/cityfuse300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import CityFuseImage from "../games/gameimg/cityfuse300200.webp"; // Include the appropriate file extension
 
 const CityFuse = () => {
   return (

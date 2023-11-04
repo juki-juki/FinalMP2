@@ -1,6 +1,6 @@
 import React from 'react';
-import DiscPoolPlayer2Image from "../games/gameimg/discpool2player300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import DiscPoolPlayer2Image from "../games/gameimg/discpool2player300200.webp"; // Include the appropriate file extension
 
 const DiscPoolPlayer2 = () => {
   return (

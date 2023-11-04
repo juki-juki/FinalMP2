@@ -1,6 +1,6 @@
 import React from 'react';
-import CokieMonsterImage from "../games/gameimg/cookiemonster300.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import CokieMonsterImage from "../games/gameimg/cookiemonster300.webp"; // Include the appropriate file extension
 
 const CokieMonster = () => {
   return (

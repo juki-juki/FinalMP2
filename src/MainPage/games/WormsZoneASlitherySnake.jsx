@@ -1,6 +1,6 @@
 import React from 'react';
-import WormsZoneASlitherySnakeImage from "../games/gameimg/Worms Zone a Slithery Snake - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import WormsZoneASlitherySnakeImage from "../games/gameimg/Worms Zone a Slithery Snake - 512x340.jpeg"; // Include the appropriate file extension
 
 const WormsZoneASlitherySnake = () => {
   return (

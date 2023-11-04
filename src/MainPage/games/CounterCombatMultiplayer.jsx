@@ -1,6 +1,6 @@
 import React from 'react';
-import CounterCombatMultiplayerImage from "../games/gameimg/Counter Combat Multiplayer - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import CounterCombatMultiplayerImage from "../games/gameimg/Counter Combat Multiplayer - 512x340.jpeg"; // Include the appropriate file extension
 
 const CounterCombatMultiplayer = () => {
   return (

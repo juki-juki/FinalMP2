@@ -1,6 +1,6 @@
 import React from 'react';
-import MedievalBattle2pImage from "../games/gameimg/Medieval Battle 2P - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import MedievalBattle2pImage from "../games/gameimg/Medieval Battle 2P - 512x340.jpeg"; // Include the appropriate file extension
 
 const MedievalBattle2p = () => {
   return (

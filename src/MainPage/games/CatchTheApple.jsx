@@ -1,6 +1,6 @@
 import React from 'react';
-import CatchTheAppleImage from "../games/gameimg/Catch the Apple - 512x340.jpg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import CatchTheAppleImage from "../games/gameimg/Catch the Apple - 512x340.jpg"; // Include the appropriate file extension
 
 const CatchTheApple = () => {
   return (

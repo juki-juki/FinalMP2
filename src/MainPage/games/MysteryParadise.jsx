@@ -1,6 +1,6 @@
 import React from 'react';
-import MysteryParadiseImage from "../games/gameimg/mysteryparadise300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import MysteryParadiseImage from "../games/gameimg/mysteryparadise300200.webp"; // Include the appropriate file extension
 
 const MysteryParadise = () => {
   return (

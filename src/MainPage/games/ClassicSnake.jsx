@@ -1,6 +1,6 @@
 import React from 'react';
-import ClassicSnakeImage from "../games/gameimg/classicsnake300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import ClassicSnakeImage from "../games/gameimg/classicsnake300200.webp"; // Include the appropriate file extension
 
 const ClassicSnake = () => {
   return (

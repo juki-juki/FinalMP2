@@ -1,6 +1,6 @@
 import React from 'react';
-import VexedImage from "../games/gameimg/vexed300.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import VexedImage from "../games/gameimg/vexed300.webp"; // Include the appropriate file extension
 
 const Vexed = () => {
   return (

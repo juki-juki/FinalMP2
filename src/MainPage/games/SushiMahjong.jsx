@@ -1,6 +1,6 @@
 import React from 'react';
-import SushiMahjongImage from "../games/gameimg/sushimahjong300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import SushiMahjongImage from "../games/gameimg/sushimahjong300200.webp"; // Include the appropriate file extension
 
 const SushiMahjong = () => {
   return (

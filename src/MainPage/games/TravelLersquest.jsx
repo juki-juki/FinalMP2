@@ -1,6 +1,6 @@
 import React from 'react';
-import TravelLersquestImage from "../games/gameimg/travelersquest300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import TravelLersquestImage from "../games/gameimg/travelersquest300200.webp"; // Include the appropriate file extension
 
 const TravelLersquest = () => {
   return (

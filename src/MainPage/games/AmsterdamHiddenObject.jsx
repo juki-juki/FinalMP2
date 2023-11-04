@@ -1,6 +1,6 @@
 import React from 'react';
-import AmsterdamHiddenObjectImage from "../games/gameimg/amsterdamhiddenobjects300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import AmsterdamHiddenObjectImage from "../games/gameimg/amsterdamhiddenobjects300200.webp"; // Include the appropriate file extension
 
 const AmsterdamHiddenObject = () => {
   return (

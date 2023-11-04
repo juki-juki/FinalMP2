@@ -1,6 +1,6 @@
 import React from 'react';
-import KickZombieVoodooImage from "../games/gameimg/Kick Zombie Voodoo - 512x340.jpg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import KickZombieVoodooImage from "../games/gameimg/Kick Zombie Voodoo - 512x340.jpg"; // Include the appropriate file extension
 
 const KickZombieVoodoo = () => {
   return (

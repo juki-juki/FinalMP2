@@ -1,6 +1,6 @@
 import React from 'react';
-import TripleConImage from "../games/gameimg/tripleconnect300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import TripleConImage from "../games/gameimg/tripleconnect300200.webp"; // Include the appropriate file extension
 
 const TripleCon = () => {
   return (

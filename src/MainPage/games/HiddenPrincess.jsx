@@ -1,6 +1,6 @@
 import React from 'react';
-import HiddenPrincessImage from "../games/gameimg/hiddenprincess300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import HiddenPrincessImage from "../games/gameimg/hiddenprincess300200.webp"; // Include the appropriate file extension
 
 const HiddenPrincess = () => {
   return (

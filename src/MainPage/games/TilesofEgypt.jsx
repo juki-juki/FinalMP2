@@ -1,6 +1,6 @@
 import React from 'react';
-import TilesofEgyptImage from "../games/gameimg/tilesofegypt300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import TilesofEgyptImage from "../games/gameimg/tilesofegypt300200.webp"; // Include the appropriate file extension
 
 const TilesofEgypt = () => {
   return (

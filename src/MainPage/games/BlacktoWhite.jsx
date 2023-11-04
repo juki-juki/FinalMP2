@@ -1,6 +1,6 @@
 import React from 'react';
-import BlacktoWhiteImage from "../games/gameimg/blacktowhite300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import BlacktoWhiteImage from "../games/gameimg/blacktowhite300200.webp"; // Include the appropriate file extension
 
 const BlacktoWhite = () => {
   return (

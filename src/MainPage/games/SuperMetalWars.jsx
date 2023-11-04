@@ -1,6 +1,6 @@
 import React from 'react';
-import SuperMetalWarsImage from "../games/gameimg/Super Metal Wars  - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import SuperMetalWarsImage from "../games/gameimg/Super Metal Wars  - 512x340.jpeg"; // Include the appropriate file extension
 
 const SuperMetalWars = () => {
   return (

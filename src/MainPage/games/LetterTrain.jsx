@@ -1,6 +1,6 @@
 import React from 'react';
-import LetterTrainImage from "../games/gameimg/lettertrain300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import LetterTrainImage from "../games/gameimg/lettertrain300200.webp"; // Include the appropriate file extension
 
 const LetterTrain = () => {
   return (

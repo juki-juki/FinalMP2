@@ -1,6 +1,6 @@
 import React from 'react';
-import NeonHexImage from "../games/gameimg/neonhex300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import NeonHexImage from "../games/gameimg/neonhex300200.webp"; // Include the appropriate file extension
 
 const NeonHex = () => {
   return (

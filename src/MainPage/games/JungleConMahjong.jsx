@@ -1,6 +1,6 @@
 import React from 'react';
-import JungleConMahjongImage from "../games/gameimg/mahjongconnectjungle300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import JungleConMahjongImage from "../games/gameimg/mahjongconnectjungle300200.webp"; // Include the appropriate file extension
 
 const JungleConMahjong = () => {
   return (

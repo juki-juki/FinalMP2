@@ -1,6 +1,6 @@
 import React from 'react';
-import DailyStarBattleImage from "../games/gameimg/daily-star-battle-300.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import DailyStarBattleImage from "../games/gameimg/daily-star-battle-300.webp"; // Include the appropriate file extension
 
 const DailyStarBattle = () => {
   return (

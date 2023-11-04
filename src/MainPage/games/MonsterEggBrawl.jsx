@@ -1,6 +1,6 @@
 import React from 'react';
-import MonsterEggBrawlImage from "../games/gameimg/Monster Egg Brawl - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import MonsterEggBrawlImage from "../games/gameimg/Monster Egg Brawl - 512x340.jpeg"; // Include the appropriate file extension
 
 const MonsterEggBrawl = () => {
   return (

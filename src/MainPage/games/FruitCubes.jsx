@@ -1,6 +1,6 @@
 import React from 'react';
-import FruitCubesImage from "../games/gameimg/fruitcubes300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import FruitCubesImage from "../games/gameimg/fruitcubes300200.webp"; // Include the appropriate file extension
 
 const FruitCubes = () => {
   return (

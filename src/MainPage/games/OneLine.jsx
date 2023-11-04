@@ -1,6 +1,6 @@
 import React from 'react';
-import OneLineImage from "../games/gameimg/oneline300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import OneLineImage from "../games/gameimg/oneline300200.webp"; // Include the appropriate file extension
 
 const OneLine = () => {
   return (

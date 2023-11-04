@@ -1,6 +1,6 @@
 import React from 'react';
-import TangramBirdImage from "../games/gameimg/tangrambird300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import TangramBirdImage from "../games/gameimg/tangrambird300200.webp"; // Include the appropriate file extension
 
 const TangramBird = () => {
   return (

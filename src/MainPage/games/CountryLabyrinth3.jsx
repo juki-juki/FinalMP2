@@ -1,6 +1,6 @@
 import React from 'react';
-import CountryLabyrinth3Image from "../games/gameimg/countrylabyrinth3300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import CountryLabyrinth3Image from "../games/gameimg/countrylabyrinth3300200.webp"; // Include the appropriate file extension
 
 const CountryLabyrinth3 = () => {
   return (

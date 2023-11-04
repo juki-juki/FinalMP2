@@ -1,6 +1,6 @@
 import React from 'react';
-import FlowerGarden2Image from "../games/gameimg/flowergarden2300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import FlowerGarden2Image from "../games/gameimg/flowergarden2300200.webp"; // Include the appropriate file extension
 
 const FlowerGarden2 = () => {
   return (

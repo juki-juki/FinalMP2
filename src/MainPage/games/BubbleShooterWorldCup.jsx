@@ -1,6 +1,6 @@
 import React from 'react';
-import BubbleShooterWorldCupImage from "../games/gameimg/Bubble Shooter World Cup - 512x340.jpg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import BubbleShooterWorldCupImage from "../games/gameimg/Bubble Shooter World Cup - 512x340.jpg"; // Include the appropriate file extension
 
 const BubbleShooterWorldCup = () => {
   return (

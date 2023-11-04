@@ -1,6 +1,6 @@
 import React from 'react';
-import DailyLoopImage from "../games/gameimg/dailyloop300.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import DailyLoopImage from "../games/gameimg/dailyloop300.webp"; // Include the appropriate file extension
 
 const DailyLoop = () => {
   return (

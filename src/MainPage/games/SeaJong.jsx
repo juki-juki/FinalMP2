@@ -1,6 +1,6 @@
 import React from 'react';
-import SeaJongImage from "../games/gameimg/seajong300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import SeaJongImage from "../games/gameimg/seajong300200.webp"; // Include the appropriate file extension
 
 const SeaJong = () => {
   return (

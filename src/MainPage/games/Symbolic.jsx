@@ -1,6 +1,6 @@
 import React from 'react';
-import SymbolicImage from "../games/gameimg/symbolic300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import SymbolicImage from "../games/gameimg/symbolic300200.webp"; // Include the appropriate file extension
 
 const Symbolic = () => {
   return (

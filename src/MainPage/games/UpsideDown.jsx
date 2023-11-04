@@ -1,6 +1,6 @@
 import React from 'react';
+import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
 import UpsideDownImage from "../games/gameimg/upsidedown300200.webp"; // Include the appropriate file extension
-import GamePreview from "../MainComponent/gamePreview";// Make sure the component filename matches
 
 const UpsideDown = () => {
   return (

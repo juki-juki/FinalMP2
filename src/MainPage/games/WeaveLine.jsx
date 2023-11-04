@@ -1,6 +1,6 @@
 import React from 'react';
-import WeaveLineImage from "../games/gameimg/weavelines300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import WeaveLineImage from "../games/gameimg/weavelines300200.webp"; // Include the appropriate file extension
 
 const WeaveLine = () => {
   return (

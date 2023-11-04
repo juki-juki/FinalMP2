@@ -1,6 +1,6 @@
 import React from 'react';
-import RescueRangersImage from "../games/gameimg/Rescue Rangers - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import RescueRangersImage from "../games/gameimg/Rescue Rangers - 512x340.jpeg"; // Include the appropriate file extension
 
 const RescueRangers = () => {
   return (

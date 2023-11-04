@@ -1,6 +1,6 @@
 import React from 'react';
-import ValentineLinkImage from "../games/gameimg/valentinelink300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import ValentineLinkImage from "../games/gameimg/valentinelink300200.webp"; // Include the appropriate file extension
 
 const ValentineLink = () => {
   return (

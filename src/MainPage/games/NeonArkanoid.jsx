@@ -1,6 +1,6 @@
 import React from 'react';
-import NeonArkanoidImage from "../games/gameimg/neonarkanoid300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import NeonArkanoidImage from "../games/gameimg/neonarkanoid300200.webp"; // Include the appropriate file extension
 
 const NeonArkanoid = () => {
   return (

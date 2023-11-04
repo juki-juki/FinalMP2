@@ -1,6 +1,6 @@
 import React from 'react';
-import PartyJongImage from "../games/gameimg/partyjong300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import PartyJongImage from "../games/gameimg/partyjong300200.webp"; // Include the appropriate file extension
 
 const PartyJong = () => {
   return (

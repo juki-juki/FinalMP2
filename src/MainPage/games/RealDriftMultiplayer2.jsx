@@ -1,6 +1,6 @@
 import React from 'react';
-import RealDriftMultiplayer2Image from "../games/gameimg/Real Drift Multiplayer 2 - 512x340.jpg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import RealDriftMultiplayer2Image from "../games/gameimg/Real Drift Multiplayer 2 - 512x340.jpg"; // Include the appropriate file extension
 
 const RealDriftMultiplayer2 = () => {
   return (

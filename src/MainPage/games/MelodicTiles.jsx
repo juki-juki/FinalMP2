@@ -1,6 +1,6 @@
 import React from 'react';
-import MelodicTilesImage from "../games/gameimg/Melodic Tiles - 512x340.jpg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import MelodicTilesImage from "../games/gameimg/Melodic Tiles - 512x340.jpg"; // Include the appropriate file extension
 
 const MelodicTiles = () => {
   return (

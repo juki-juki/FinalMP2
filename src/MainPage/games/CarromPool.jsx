@@ -1,6 +1,6 @@
 import React from 'react';
-import CarromPoolImage from "../games/gameimg/carrompool300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import CarromPoolImage from "../games/gameimg/carrompool300200.webp"; // Include the appropriate file extension
 
 const CarromPool = () => {
   return (

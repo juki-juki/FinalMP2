@@ -1,6 +1,6 @@
 import React from 'react';
+import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
 import MsTapManImage from "../games/gameimg/mstapman300.webp"; // Include the appropriate file extension
-import GamePreview from "../MainComponent/gamePreview";// Make sure the component filename matches
 
 const MsTapMan = () => {
   return (

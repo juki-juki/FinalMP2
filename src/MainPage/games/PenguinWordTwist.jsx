@@ -1,6 +1,6 @@
 import React from 'react';
-import PenguinWordTwistImage from "../games/gameimg/penguinwordtwist300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import PenguinWordTwistImage from "../games/gameimg/penguinwordtwist300200.webp"; // Include the appropriate file extension
 
 const PenguinWordTwist = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import JollyJongMathImage from "../games/gameimg/jollyjongmath300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import JollyJongMathImage from "../games/gameimg/jollyjongmath300200.webp"; // Include the appropriate file extension
 
 const JollyJongMath = () => {
   return (

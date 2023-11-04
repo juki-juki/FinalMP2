@@ -1,6 +1,6 @@
 import React from 'react';
-import NeonLightsImage from "../games/gameimg/neonlights300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import NeonLightsImage from "../games/gameimg/neonlights300200.webp"; // Include the appropriate file extension
 
 const NeonLights = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import FlowerShopImage from "../games/gameimg/flowershop300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import FlowerShopImage from "../games/gameimg/flowershop300200.webp"; // Include the appropriate file extension
 
 const FlowerShop = () => {
   return (

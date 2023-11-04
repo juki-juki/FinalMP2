@@ -1,6 +1,6 @@
 import React from 'react';
-import NeonJong3dImage from "../games/gameimg/neonjong3d300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import NeonJong3dImage from "../games/gameimg/neonjong3d300200.webp"; // Include the appropriate file extension
 
 const NeonJong3d = () => {
   return (

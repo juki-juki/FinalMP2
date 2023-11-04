@@ -1,6 +1,6 @@
 import React from 'react';
-import GalaxyShooterImage from "../games/gameimg/galaxyshooter300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import GalaxyShooterImage from "../games/gameimg/galaxyshooter300200.webp"; // Include the appropriate file extension
 
 const GalaxyShooter = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import BlobsImage from "../games/gameimg/blobs300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import BlobsImage from "../games/gameimg/blobs300200.webp"; // Include the appropriate file extension
 
 const Blobs = () => {
   return (

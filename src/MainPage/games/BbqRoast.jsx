@@ -1,6 +1,6 @@
 import React from 'react';
-import BbqRoastImage from "../games/gameimg/bbqroast300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import BbqRoastImage from "../games/gameimg/bbqroast300200.webp"; // Include the appropriate file extension
 
 const BbqRoast = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
+import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
 import RotrisImage from "../games/gameimg/rotris300200.webp"; // Include the appropriate file extension
-import GamePreview from "../MainComponent/gamePreview";// Make sure the component filename matches
 
 const Rotris = () => {
   return (

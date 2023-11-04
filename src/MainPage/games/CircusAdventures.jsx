@@ -1,6 +1,6 @@
 import React from 'react';
-import CircusAdventuresImage from "../games/gameimg/circusadventures300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import CircusAdventuresImage from "../games/gameimg/circusadventures300200.webp"; // Include the appropriate file extension
 
 const CircusAdventures = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import Vex8Image from "../games/gameimg/Vex 8 - 512x340.jpg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import Vex8Image from "../games/gameimg/Vex 8 - 512x340.jpg"; // Include the appropriate file extension
 
 const Vex8 = () => {
   return (

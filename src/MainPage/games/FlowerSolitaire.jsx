@@ -1,6 +1,6 @@
 import React from 'react';
-import FloweSolitaireImage from "../games/gameimg/flowermahjongsolitaire300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import FloweSolitaireImage from "../games/gameimg/flowermahjongsolitaire300200.webp"; // Include the appropriate file extension
 
 const FloweSolitaire = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import WoordzoekerImage from "../games/gameimg/dagelijksewoordzoeker300.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import WoordzoekerImage from "../games/gameimg/dagelijksewoordzoeker300.webp"; // Include the appropriate file extension
 
 const Woordzoeker = () => {
   return (

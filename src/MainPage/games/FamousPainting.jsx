@@ -1,6 +1,6 @@
 import React from 'react';
-import FamousPaintingImage from "../games/gameimg/famouspaintings1300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import FamousPaintingImage from "../games/gameimg/famouspaintings1300200.webp"; // Include the appropriate file extension
 
 const FamousPainting = () => {
   return (

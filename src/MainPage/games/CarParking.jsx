@@ -1,6 +1,6 @@
 import React from 'react';
-import CarParkingImage from "../games/gameimg/carparking-300.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import CarParkingImage from "../games/gameimg/carparking-300.webp"; // Include the appropriate file extension
 
 const CarParking = () => {
   return (

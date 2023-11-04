@@ -1,6 +1,6 @@
 import React from 'react';
-import WhatTheHenImage from "../games/gameimg/What The Hen! - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import WhatTheHenImage from "../games/gameimg/What The Hen! - 512x340.jpeg"; // Include the appropriate file extension
 
 const WhatTheHen = () => {
   return (

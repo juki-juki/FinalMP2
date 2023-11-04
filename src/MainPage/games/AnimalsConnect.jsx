@@ -1,6 +1,6 @@
 import React from 'react';
-import AnimalsConnectImage from "../games/gameimg/animalsconnect300.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import AnimalsConnectImage from "../games/gameimg/animalsconnect300.webp"; // Include the appropriate file extension
 
 const AnimalsConnect = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import DrackAndFrancImage from "../games/gameimg/Drac & Franc - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import DrackAndFrancImage from "../games/gameimg/Drac & Franc - 512x340.jpeg"; // Include the appropriate file extension
 
 const DrackAndFranc = () => {
   return (

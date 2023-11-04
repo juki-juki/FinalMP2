@@ -1,6 +1,6 @@
 import React from 'react';
-import BlockMonsters1010Image from "../games/gameimg/blockmonsters1010300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import BlockMonsters1010Image from "../games/gameimg/blockmonsters1010300200.webp"; // Include the appropriate file extension
 
 const BlockMonsters1010 = () => {
   return (

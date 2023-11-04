@@ -1,6 +1,6 @@
 import React from 'react';
-import LostPyramidImage from "../games/gameimg/Lost Pyramid - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import LostPyramidImage from "../games/gameimg/Lost Pyramid - 512x340.jpeg"; // Include the appropriate file extension
 
 const LostPyramid = () => {
   return (

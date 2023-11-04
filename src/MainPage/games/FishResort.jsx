@@ -1,6 +1,6 @@
 import React from 'react';
-import FishResortImage from "../games/gameimg/Fish Resort - 512x340.jpg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import FishResortImage from "../games/gameimg/Fish Resort - 512x340.jpg"; // Include the appropriate file extension
 
 const FishResort = () => {
   return (

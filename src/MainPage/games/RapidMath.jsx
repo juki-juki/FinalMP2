@@ -1,6 +1,6 @@
 import React from 'react';
-import RapidMathImage from "../games/gameimg/rapidmath300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import RapidMathImage from "../games/gameimg/rapidmath300200.webp"; // Include the appropriate file extension
 
 const RapidMath = () => {
   return (

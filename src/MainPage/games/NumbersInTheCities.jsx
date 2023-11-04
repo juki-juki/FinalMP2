@@ -1,6 +1,6 @@
 import React from 'react';
-import NumbersInTheCitiesImage from "../games/gameimg/numbersinthecity300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import NumbersInTheCitiesImage from "../games/gameimg/numbersinthecity300200.webp"; // Include the appropriate file extension
 
 const NumbersInTheCities = () => {
   return (

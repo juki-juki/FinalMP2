@@ -1,6 +1,6 @@
 import React from 'react';
-import BingoImage from "../games/gameimg/bingo300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import BingoImage from "../games/gameimg/bingo300200.webp"; // Include the appropriate file extension
 
 const Bingo = () => {
   return (

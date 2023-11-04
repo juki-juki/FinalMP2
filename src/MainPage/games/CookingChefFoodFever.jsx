@@ -1,6 +1,6 @@
 import React from 'react';
-import CookingChefFoodFeverImage from "../games/gameimg/Cooking Chef Food Fever - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import CookingChefFoodFeverImage from "../games/gameimg/Cooking Chef Food Fever - 512x340.jpeg"; // Include the appropriate file extension
 
 const CookingChefFoodFever = () => {
   return (

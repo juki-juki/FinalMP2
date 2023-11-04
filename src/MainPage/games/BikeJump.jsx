@@ -1,6 +1,6 @@
 import React from 'react';
-import BikeJumpImage from "../games/gameimg/Bike jump - 200x120.jpg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import BikeJumpImage from "../games/gameimg/Bike jump - 200x120.jpg"; // Include the appropriate file extension
 
 const BikeJump = () => {
   return (

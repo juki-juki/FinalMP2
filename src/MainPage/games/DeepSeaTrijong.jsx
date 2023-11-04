@@ -1,6 +1,6 @@
 import React from 'react';
-import DeepSeaTrijongImage from "../games/gameimg/deepseatrijong300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import DeepSeaTrijongImage from "../games/gameimg/deepseatrijong300200.webp"; // Include the appropriate file extension
 
 const DeepSeaTrijong = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import BlockDominoImage from "../games/gameimg/blockdomino300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import BlockDominoImage from "../games/gameimg/blockdomino300200.webp"; // Include the appropriate file extension
 
 const BlockDomino = () => {
   return (

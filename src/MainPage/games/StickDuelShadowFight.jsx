@@ -1,6 +1,6 @@
 import React from 'react';
-import StickDuelShadowFightImage from "../games/gameimg/Stick Duel_ Shadow Fight - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import StickDuelShadowFightImage from "../games/gameimg/Stick Duel_ Shadow Fight - 512x340.jpeg"; // Include the appropriate file extension
 
 const StickDuelShadowFight = () => {
   return (

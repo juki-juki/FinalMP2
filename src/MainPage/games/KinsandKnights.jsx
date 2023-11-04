@@ -1,6 +1,6 @@
 import React from 'react';
-import KinsandKnightsImage from "../games/gameimg/kingsandknights300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import KinsandKnightsImage from "../games/gameimg/kingsandknights300200.webp"; // Include the appropriate file extension
 
 const KinsandKnights = () => {
   return (

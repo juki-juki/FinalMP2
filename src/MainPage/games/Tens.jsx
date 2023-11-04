@@ -1,6 +1,6 @@
 import React from 'react';
-import TensImage from "../games/gameimg/tens300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import TensImage from "../games/gameimg/tens300200.webp"; // Include the appropriate file extension
 
 const Tens = () => {
   return (

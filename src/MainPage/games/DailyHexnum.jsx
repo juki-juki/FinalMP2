@@ -1,6 +1,6 @@
 import React from 'react';
-import DailyHexnumImage from "../games/gameimg/dailyhexnum300.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import DailyHexnumImage from "../games/gameimg/dailyhexnum300.webp"; // Include the appropriate file extension
 
 const DailyHexnum = () => {
   return (

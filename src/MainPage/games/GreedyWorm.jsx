@@ -1,6 +1,6 @@
 import React from 'react';
-import GreedyWormImage from "../games/gameimg/greedyworm300.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import GreedyWormImage from "../games/gameimg/greedyworm300.webp"; // Include the appropriate file extension
 
 const GreedyWorm = () => {
   return (

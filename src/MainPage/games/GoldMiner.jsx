@@ -1,6 +1,6 @@
 import React from 'react';
-import GoldMinerImage from "../games/gameimg/goldminer300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import GoldMinerImage from "../games/gameimg/goldminer300200.webp"; // Include the appropriate file extension
 
 const GoldMiner = () => {
   return (

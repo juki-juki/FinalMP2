@@ -1,6 +1,6 @@
 import React from 'react';
-import AirportManagement2Image from "../games/gameimg/airportmanagement2300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import AirportManagement2Image from "../games/gameimg/airportmanagement2300200.webp"; // Include the appropriate file extension
 
 const AirportManagement2 = () => {
   return (

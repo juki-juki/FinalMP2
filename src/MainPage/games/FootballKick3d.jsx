@@ -1,6 +1,6 @@
 import React from 'react';
-import FootballKick3dImage from "../games/gameimg/Football Kick 3D - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import FootballKick3dImage from "../games/gameimg/Football Kick 3D - 512x340.jpeg"; // Include the appropriate file extension
 
 const FootballKick3d = () => {
   return (

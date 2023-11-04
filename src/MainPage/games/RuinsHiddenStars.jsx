@@ -1,6 +1,6 @@
 import React from 'react';
-import RuinsHiddenStarsImage from "../games/gameimg/ruins-hidden-stars-300.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import RuinsHiddenStarsImage from "../games/gameimg/ruins-hidden-stars-300.webp"; // Include the appropriate file extension
 
 const RuinsHiddenStars = () => {
   return (

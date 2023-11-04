@@ -1,6 +1,6 @@
 import React from 'react';
-import IceCreamBarImage from "../games/gameimg/icecreambar300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import IceCreamBarImage from "../games/gameimg/icecreambar300200.webp"; // Include the appropriate file extension
 
 const IceCreamBar = () => {
   return (

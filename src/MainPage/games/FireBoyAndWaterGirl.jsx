@@ -1,6 +1,6 @@
 import React from 'react';
-import FireBoyAndWaterGirlImage from "../games/gameimg/Fireboy & Watergirl 6_ Fairy Tales - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import FireBoyAndWaterGirlImage from "../games/gameimg/Fireboy & Watergirl 6_ Fairy Tales - 512x340.jpeg"; // Include the appropriate file extension
 
 const FireBoyAndWaterGirl = () => {
   return (

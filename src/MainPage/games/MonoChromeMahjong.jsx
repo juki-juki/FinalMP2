@@ -1,6 +1,6 @@
 import React from 'react';
-import MonoChromeMahjongImage from "../games/gameimg/monochromemahjongg300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import MonoChromeMahjongImage from "../games/gameimg/monochromemahjongg300200.webp"; // Include the appropriate file extension
 
 const MonoChromeMahjong = () => {
   return (

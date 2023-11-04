@@ -1,6 +1,6 @@
 import React from 'react';
-import HolidayMatchImage from "../games/gameimg/holidaymatch300.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import HolidayMatchImage from "../games/gameimg/holidaymatch300.webp"; // Include the appropriate file extension
 
 const HolidayMatch = () => {
   return (

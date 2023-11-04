@@ -1,6 +1,6 @@
 import React from 'react';
-import CrossWordsImage from "../games/gameimg/crosswords2300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import CrossWordsImage from "../games/gameimg/crosswords2300200.webp"; // Include the appropriate file extension
 
 const CrossWords2 = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import DailyShikakuImage from "../games/gameimg/dailyshikaku300.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import DailyShikakuImage from "../games/gameimg/dailyshikaku300.webp"; // Include the appropriate file extension
 
 const DailyShikaku = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import EscapetheForestImage from "../games/gameimg/escapetheforest300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import EscapetheForestImage from "../games/gameimg/escapetheforest300200.webp"; // Include the appropriate file extension
 
 const EscapetheForest = () => {
   return (

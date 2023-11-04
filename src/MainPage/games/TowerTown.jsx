@@ -1,6 +1,6 @@
 import React from 'react';
+import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
 import TowerTownImage from "../games/gameimg/towertown300200.webp"; // Include the appropriate file extension
-import GamePreview from "../MainComponent/gamePreview";// Make sure the component filename matches
 
 const TowerTown = () => {
   return (

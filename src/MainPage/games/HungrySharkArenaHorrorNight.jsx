@@ -1,6 +1,6 @@
 import React from 'react';
-import HungrySharkArenaHorrorNightImage from "../games/gameimg/Hungry Shark Arena Horror Night - 512x340.jpeg"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import HungrySharkArenaHorrorNightImage from "../games/gameimg/Hungry Shark Arena Horror Night - 512x340.jpeg"; // Include the appropriate file extension
 
 const HungrySharkArenaHorrorNight = () => {
   return (

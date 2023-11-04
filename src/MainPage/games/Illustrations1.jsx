@@ -1,6 +1,6 @@
 import React from 'react';
-import Illustrations1Image from "../games/gameimg/illustrations1300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import Illustrations1Image from "../games/gameimg/illustrations1300200.webp"; // Include the appropriate file extension
 
 const Illustrations1 = () => {
   return (

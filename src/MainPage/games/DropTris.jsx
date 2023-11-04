@@ -1,6 +1,6 @@
 import React from 'react';
-import DropTrisImage from "../games/gameimg/droptris300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import DropTrisImage from "../games/gameimg/droptris300200.webp"; // Include the appropriate file extension
 
 const DropTris = () => {
   return (

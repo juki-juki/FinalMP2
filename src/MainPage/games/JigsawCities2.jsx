@@ -1,6 +1,6 @@
 import React from 'react';
-import JigsawCities2Image from "../games/gameimg/jigsawcities2300200.webp"; // Include the appropriate file extension
 import GamePreview from "../MainComponent/gamePreview"; // Make sure the component filename matches
+import JigsawCities2Image from "../games/gameimg/jigsawcities2300200.webp"; // Include the appropriate file extension
 
 const JigsawCities2 = () => {
   return (
