@@ -5,7 +5,7 @@ import Button from "../Button";
 const Hero = () => {
   
   return (
-    <section className="w-full px-8 py-12 pt-20 pb-0 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
+    <section id="home" className="w-full px-8 py-12 pt-20 pb-0 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
       <div>
         <span className="block mb-4 text-xs md:text-sm text-white  font-medium">
           Better every day
