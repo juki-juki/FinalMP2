@@ -179,8 +179,6 @@ import HiddenToys from '../games/HiddenToys';
 import HolidayMatch from '../games/HolidayMatch';
 import HungrySharkArenaHorrorNight from '../games/HungrySharkArenaHorrorNight';
 import HuntedWolfDefenseGame from '../games/HuntedWolfDefenseGame';
-import HuntingJackAtHome from '../games/HuntingJackAtHome';
-import HuntingJackInTheCity from '../games/HuntingJackInTheCity';
 import IceCreamBar from '../games/IceCreamBar';
 import Illuminate1 from '../games/Illuminate1';
 import Illustration2 from '../games/Illustration2';
@@ -571,8 +569,8 @@ const Dashboard = () => {
     <HolidayMatch />,
     <HungrySharkArenaHorrorNight />,
     <HuntedWolfDefenseGame />,
-    <HuntingJackAtHome />,
-    <HuntingJackInTheCity />,
+    // <HuntingJackAtHome />,
+    // <HuntingJackInTheCity />,
     <IceCreamBar />,
     <Illuminate1 />,
     <Illustration2 />,
