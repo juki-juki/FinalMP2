@@ -135,7 +135,6 @@ import FamousPaintings3 from '../games/FamousPaintings3';
 import FarmMahjong from '../games/FarmMahjong';
 import FarmTown from '../games/FarmTown';
 import FeedTheAnimals from '../games/FeedTheAnimals';
-import FindtheKey from '../games/FindtheKey';
 import FireBoyAndWaterGirl from '../games/FireBoyAndWaterGirl';
 import FishResort from '../games/FishResort';
 import FlowerBurst from '../games/FlowerBurst';
@@ -528,7 +527,6 @@ const Dashboard = () => {
     <FarmMahjong />,
     <FarmTown />,
     <FeedTheAnimals />,
-    <FindtheKey />,
     <FireBoyAndWaterGirl />,
     <FishResort />,
     <FlowerBurst />,

@@ -1,7 +1,7 @@
 import React from 'react';
-import backgroundVideo from '../../assets/vid2.mp4'; // Update this path
+import backgroundVideo from '../../assets/vid2.mp4';
 import BlogSection from './BlogSection.jsx';
-import FacebookMessengerChat from './LandingComponents/FacebookMessengerChat.jsx';
+import FacebookChat from './LandingComponents/FacebookChat.jsx';
 import Footer from './LandingComponents/Footer';
 import Hero from './LandingComponents/Hero';
 import HeroSection from './LandingComponents/HeroSection.jsx';
@@ -21,12 +21,10 @@ const LLayout = () => {
       <div className='relative z-10'>
         <NavigationBar className="p-0" />
         <Hero className="p-0" />
-        {/* <Explore className="p-0" /> */}
-        
         <HeroSection className="p-0" />
         <WhatWeDo />
         <BlogSection />
-        <FacebookMessengerChat/>
+        <FacebookChat/>
         <Footer className="p-0" /> 
       </div>
     </div>
