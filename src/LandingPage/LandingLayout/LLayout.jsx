@@ -12,7 +12,9 @@ import WhatWeDo from './LandingComponents/WhatWeDo.jsx';
 const LLayout = () => {
  
   return (
+    // <div><Example/>
     <div className='relative h-screen'>
+      
       <video autoPlay muted loop className='absolute inset-0 w-full h-full object-cover'>
         <source src={backgroundVideo} type="video/mp4" />
         Your browser does not support the video tag.
@@ -27,7 +29,8 @@ const LLayout = () => {
         <HeroSection className="p-0" />
         <Footer className="p-0" /> 
       </div>
-    </div>
+      </div>
+    // </div>
   );
 };
 

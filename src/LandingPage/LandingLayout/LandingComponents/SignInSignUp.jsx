@@ -84,7 +84,7 @@ function SignInSignUp() {
 
               <div className="mt-3 text-xs flex justify-between items-center text-[#002D74]">
                 <p>Continue as</p>
-                <button onClick={Anonymously} className="py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300">Guest</button>
+                <button onClick={Anonymously} className="py-2 px-5 bg-[#002D74] border rounded-xl  text-white hover:scale-110 duration-300">Guest</button>
               </div>
             </div>
 

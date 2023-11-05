@@ -25,6 +25,9 @@ const NavigationBar = () => {
               Get started
             </button>
           </div>
+          <div>
+          </div>
+          
           <div className="items-center justify between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
             <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border md:flex-row md:space-x-8 md:mt-0 md:border-0 bg-gradient-to-br backdrop-blur-lg">
             <Link
