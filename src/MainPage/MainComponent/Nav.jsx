@@ -27,8 +27,9 @@ const Nav = () => {
     <nav className="bg-white border-gray-200 dark:bg-gray-900 relative">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center">
-          <img src="#" className="h-8 mr-3" alt="#" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">DANG</span>
+        <div className="h-12 mr-3 absolute">
+  <img src="/src/assets/DANG.gif" className="w-full h-full" alt="DANG LOGO" />
+</div>
         </a>
         <div className="flex items-center md:order-2 px-2 py-4">
           <button

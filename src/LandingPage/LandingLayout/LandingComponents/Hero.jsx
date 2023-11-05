@@ -5,17 +5,19 @@ import Button from "../Button";
 const Hero = () => {
   
   return (
+    
     <section id="home" className="w-full px-8 py-12 pt-20 pb-0 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
-      <div>
-        <span className="block mb-4 text-xs md:text-sm text-white  font-medium">
-          Better every day
-        </span>
-        <h3 className="text-4xl md:text-6xl font-semibold text-white">
-          Let's change it up a bit
-        </h3>
-        <p className="text-base md:text-lg text-white my-4 md:my-6">
-        Explore our diverse collection of games, handpicked for your enjoyment. Whether you're a casual gamer or a seasoned pro, there's something here for everyone.
-        </p>
+  <div>
+    <div className="h-15 mr-3 relative">
+      <img src="/src/assets/DANG.gif" className="h-full" alt="DANG LOGO" />
+    </div>
+
+    <h3 className="text-4xl md:text-6xl font-semibold text-white">
+      Let's change it up a bit
+    </h3>
+    <p className="text-base md:text-lg text-white my-4 md:my-6">
+      Explore our diverse collection of games, handpicked for your enjoyment. Whether you're a casual gamer or a seasoned pro, there's something here for everyone.
+    </p>
         
             <Button/>
         
