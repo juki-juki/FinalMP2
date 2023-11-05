@@ -1,32 +1,50 @@
 import React, { useState } from 'react';
 import ReactPaginate from 'react-paginate';
-import BallRace from '../topgames/BallRace';
-import Clancy from '../topgames/Clancy';
-import Creed from '../topgames/Creed';
-import DunkShot from '../topgames/DunkShot';
 
-import IdleArks from '../topgames/IdleArks copy';
-import Miner from '../topgames/Miner';
-import Stack from '../topgames/Stack';
-import Warrior from '../topgames/Warrior';
+import RuneMahjong from '../games/RuneMahjong';
+import SafariMahjong from '../games/SafariMahjong';
+import ScaryMemoryHalloween from '../games/ScaryMemoryHalloween';
+import SeaJong from '../games/SeaJong';
+import SearchtheSands from '../games/SearchtheSands';
+import SenseiMahjong from '../games/SenseiMahjong';
+import ShanghaiDynasty from '../games/ShanghaiDynasty';
+import SheepandWolves from '../games/SheepandWolves';
+import Shinro from '../games/Shinro';
+import SimonSays from '../games/SimonSays';
+import SlidePuzzle from '../games/SlidePuzzle';
+import SlidonMahjongSlide from '../games/SlidonMahjongSlide';
+import SnowBall from '../games/SnowBall';
+import SnowMan from '../games/SnowMan';
+import Space from '../games/Space';
+import Tetrix from '../games/Tetrix';
+import YinandYang from '../games/YinandYang';
 import Nav from './Nav';
+
 
 const itemsPerPage = 4;
 
-const MainPage = () => {
+const Pvp = () => {
   const [currentPage, setCurrentPage] = useState(0);
   const games = [
   
     
-    <Warrior/>,
-  <BallRace/>,
-  <Stack/>,
- <Clancy/>,
-  <Creed/>,
-  <DunkShot/>,
-  <Miner/>,
-  <IdleArks/>,
-
+<Tetrix/>,
+<YinandYang/>,
+<RuneMahjong />,
+    <SafariMahjong />,
+    <ScaryMemoryHalloween />,
+    <SeaJong />,
+    <SearchtheSands />,
+    <SenseiMahjong />,
+    <ShanghaiDynasty />,
+    <SheepandWolves />,
+    <Shinro />,
+    <SimonSays />,
+    <SlidePuzzle />,
+    <SlidonMahjongSlide />,
+    <SnowBall />,
+    <SnowMan />,
+    <Space />,
 
 
 ];
@@ -51,7 +69,7 @@ const MainPage = () => {
       >
         <div className="px-22 mx-auto max-w-screen-xl text-center py-14 lg:py-26">
           <h1 className="mb-4 text-4xl font-extrabold leading-none text-white md:text-5xl lg:text-6xl">
-            WELCOME TO DANG GAME HUB
+            ARCADE
           </h1>
         </div>
       
@@ -85,4 +103,4 @@ const MainPage = () => {
   );
 };
 
-export default MainPage;
+export default Pvp;

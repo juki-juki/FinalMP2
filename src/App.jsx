@@ -4,6 +4,7 @@ import './App.css';
 import LLayout from "./LandingPage/LandingLayout/LLayout";
 import Dashboard from "./MainPage/MainComponent/Dashboard";
 import MainPage from "./MainPage/MainComponent/Mainpage";
+import Pvp from "./MainPage/MainComponent/Pvp";
 import MLayOut from "./MainPage/MainLayout/MLayOut";
 
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/m-layout" element={<MLayOut />} />
           <Route path="/page" element={<MainPage />} />
           <Route path="/dashboard" element={<Dashboard/>} />
+          <Route path="/pvp" element={<Pvp/>} />
         </Routes>
       </Router>
     </div>

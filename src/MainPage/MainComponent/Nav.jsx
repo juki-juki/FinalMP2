@@ -96,14 +96,10 @@ const Nav = () => {
               </NavLink>
             </li>
             <li>
-              <a href="#" className="text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
-                PvP
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
-                MULTIPLAYER
-              </a>
+              <NavLink to="/pvp"
+               href="#" className="text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                ARCADE
+                </NavLink>
             </li>
             <li>
             <NavLink to="/dashboard" className="text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
