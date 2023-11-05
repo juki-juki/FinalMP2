@@ -18,7 +18,7 @@ const NavigationBar = () => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" className="flex items-center">
           <div className="h-12 mr-3 absolute">
-  <img src="/src/assets/DANG.gif" className="w-full h-full" alt="DANG LOGO" />
+  <img src="/DANG.gif" className="w-full h-full" alt="DANG LOGO" />
 </div>
             
           </a>
