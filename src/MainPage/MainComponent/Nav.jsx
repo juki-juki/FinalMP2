@@ -1,6 +1,7 @@
 import { signOut } from 'firebase/auth';
 import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
+import logoImage from "../../../DANG.gif";
 import { auth } from '../../firebase/Firebase';
 import { useGetUserInfo } from '../../hooks/useGetUserInfo';
 
@@ -28,7 +29,7 @@ const Nav = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center">
         <div className="h-12 mr-3 absolute">
-  <img src="/DANG.gif" className="w-full h-full" alt="DANG LOGO" />
+  <img src={logoImage} className="w-full h-full" alt="DANG LOGO" />
 </div>
         </a>
         <div className="flex items-center md:order-2 px-2 py-4">

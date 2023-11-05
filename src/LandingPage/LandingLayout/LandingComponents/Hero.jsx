@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import logoImage from "../../../../DANG.gif";
 import Button from "../Button";
 
 const Hero = () => {
@@ -9,7 +10,7 @@ const Hero = () => {
     <section id="home" className="w-full px-8 py-12 pt-20 pb-0 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
   <div>
     <div className="h-15 mr-3 relative">
-      <img src="/DANG.gif" className="h-full" alt="DANG LOGO" />
+      <img src={logoImage} className="h-full" alt="DANG LOGO" />
     </div>
 
     <h3 className="text-4xl md:text-6xl font-semibold text-white">
