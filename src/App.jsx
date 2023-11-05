@@ -1,9 +1,11 @@
 import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import './App.css';
 import LLayout from "./LandingPage/LandingLayout/LLayout";
 import Dashboard from "./MainPage/MainComponent/Dashboard";
 import MainPage from "./MainPage/MainComponent/Mainpage";
 import MLayOut from "./MainPage/MainLayout/MLayOut";
+
 
 function App() {
 

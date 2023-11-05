@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ReactPaginate from 'react-paginate';
 import AddItUp from '../games/AddItUp';
+import Nav from './Nav';
 
 const itemsPerPage = 12;
 
@@ -18,6 +19,7 @@ const MainPage = () => {
 
   return (
     <div>
+      <Nav />
       <section
         className="bg-cover h-screen bg-center bg-no-repeat"
         style={{

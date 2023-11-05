@@ -1,17 +1,29 @@
-/* Hide the scrollbar but allow scrolling */
 body {
-    scrollbar-width: none; /* For Firefox */
-    -ms-overflow-style: none; /* For Internet Explorer/Edge */
-    overflow-y: scroll; /* Always show a vertical scrollbar */
-  }
-  
-  body::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Opera */
-  }
-  
-  /* To ensure no margin or padding */
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer/Edge */
+  overflow-y: scroll; /* Always show a vertical scrollbar */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+/* To ensure no margin or padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 
+@font-face {
+  /* font-family: 'Badoom'; /* Name your font */
+  /* src: url('/src/assets/BADABB__.TTF') format('woff2');  */
+/*  
+  font-weight: normal;
+  font-style: normal; */
+/* } */
+
+/* body {
+  font-family: 'Badoom', sans-serif;
+  letter-spacing: 4px; 
+  line-height: .5; 
+}  */
