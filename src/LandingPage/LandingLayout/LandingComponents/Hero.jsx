@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import logoImage from "../../../assets/dang.gif";
+import logoImage from "../../../assets/DANG.gif";
 import Button from "../Button";
 
 const Hero = () => {
