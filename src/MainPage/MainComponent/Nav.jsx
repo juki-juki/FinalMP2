@@ -1,15 +1,13 @@
 import { signOut } from 'firebase/auth';
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import { auth } from '../../firebase/Firebase';
 import { useGetUserInfo } from '../../hooks/useGetUserInfo';
 
-
 const Nav = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
-  const {name, profilePhoto, email} = useGetUserInfo();
+  const { name, profilePhoto, email } = useGetUserInfo();
   const navigate = useNavigate();
-
 
   const toggleDropdown = () => {
     setDropdownOpen(!isDropdownOpen);
@@ -17,21 +15,20 @@ const Nav = () => {
 
   const signUserOut = async () => {
     try {
-    await signOut (auth);
-    localStorage.clear()
-    navigate("/")
+      await signOut(auth);
+      localStorage.clear();
+      navigate('/');
     } catch (err) {
       console.error(err);
     }
-  }
-
+  };
 
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900 relative"> {/* Add 'relative' class */}
+    <nav className="bg-white border-gray-200 dark:bg-gray-900 relative">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center">
-          <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+          <img src="#" className="h-8 mr-3" alt="#" />
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">DANG</span>
         </a>
         <div className="flex items-center md:order-2 px-2 py-4">
           <button
@@ -61,7 +58,11 @@ const Nav = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" onClick={signUserOut} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover-bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                  <a
+                    href="#"
+                    onClick={signUserOut}
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover-bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                  >
                     Sign out
                   </a>
                 </li>
@@ -87,8 +88,29 @@ const Nav = () => {
             </svg>
           </button>
         </div>
-        <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-user">
-          {/* ... Additional content for the navbar ... */}
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <ul className="flex space-x-16">
+            <li>
+            <NavLink to="/page" className="text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                TOP GAMES
+              </NavLink>
+            </li>
+            <li>
+              <a href="#" className="text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                PvP
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                MULTIPLAYER
+              </a>
+            </li>
+            <li>
+            <NavLink to="/dashboard" className="text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                MORE GAMES
+              </NavLink>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

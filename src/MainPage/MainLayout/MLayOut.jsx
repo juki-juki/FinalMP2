@@ -1,14 +1,15 @@
-import React from 'react'
-import Dashboard from '../MainComponent/Dashboard'
-import Nav from '../MainComponent/Nav'
+import React from 'react';
+import MainPage from '../MainComponent/Mainpage';
+import Nav from '../MainComponent/Nav';
 
 const MLayOut = () => {
   return (
     <div>
-      <Nav/>
-      <Dashboard/>
+      <Nav />
+      <MainPage/>
+      
     </div>
-  )
-}
+  );
+};
 
-export default MLayOut
+export default MLayOut;

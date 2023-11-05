@@ -382,6 +382,7 @@ import ZooAnimals from '../games/ZooAnimals';
 import ZooMysteries from '../games/ZooMysteries';
 import ZoobiesCon from '../games/ZoobiesCon';
 import Vex8 from '../games/vex8';
+import Nav from './Nav';
 
 
 const itemsPerPage = 12;
@@ -787,6 +788,9 @@ const Dashboard = () => {
   };
 
   return (
+    <div>
+       <Nav/>
+    
     <div className="p-4 bg-gradient-to-br from-indigo-500 to-violet-300 min-h-screen flex flex-col items-center">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {currentGames.map((game, index) => (
@@ -810,6 +814,7 @@ const Dashboard = () => {
           activeClassName={'bg-blue-700 text-white'} 
         />
       </div>
+    </div>
     </div>
   );
 };

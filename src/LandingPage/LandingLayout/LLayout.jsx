@@ -21,10 +21,10 @@ const LLayout = () => {
       <div className='relative z-10'>
         <NavigationBar className="p-0" />
         <Hero className="p-0" />
-        <HeroSection className="p-0" />
         <WhatWeDo />
         <BlogSection />
         <FacebookChat/>
+        <HeroSection className="p-0" />
         <Footer className="p-0" /> 
       </div>
     </div>
