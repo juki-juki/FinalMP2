@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-import logoImage from "../../../../DANG.gif";
+import logoImage from "../../../../src/assets/DANG.gif";
 import Modal from './Modal'; // Import the Modal component
 
 

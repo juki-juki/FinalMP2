@@ -1,7 +1,7 @@
 import { signOut } from 'firebase/auth';
 import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import logoImage from "../../../DANG.gif";
+import logoImage from "../../assets/DANG.gif";
 import { auth } from '../../firebase/Firebase';
 import { useGetUserInfo } from '../../hooks/useGetUserInfo';
 
