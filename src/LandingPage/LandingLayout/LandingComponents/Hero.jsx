@@ -22,9 +22,9 @@ const Hero = () => {
 
 
 
-        <h3 className="text-4xl md:text-6xl font-semibold text-white">
-          Let's change it up a bit
-        </h3>
+<h3 className="text-4xl md:text-6xl font-semibold text-white" style={{ fontFamily: 'Badoom, sans-serif' }}>
+  Let's change it up a bit
+</h3>
         <p className="text-base md:text-lg text-white my-4 md:my-6">
           Explore our diverse collection of games, handpicked for your enjoyment. Whether you're a casual gamer or a seasoned pro, there's something here for everyone.
         </p>

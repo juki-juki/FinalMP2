@@ -11,7 +11,7 @@ const BlogSection = () => {
             </svg>
             Tutorial
           </a>
-          <h1 className="text-gray-900 dark:text-white text-3xl md:text-5xl font-extrabold mb-2">CHOOSE YOUR SIDE</h1>
+          <h1 className="text-gray-900 dark:text-white text-3xl md:text-5xl font-extrabold mb-2"style={{ fontFamily: 'Badoom, sans-serif' }}>CHOOSE YOUR SIDE</h1>
           <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">Enjoy great revenue with NET 30 payouts!
 We send money within 25 days of the previous month.
 Shared income between $1.5–$3 per 1000 ad views</p>
@@ -30,7 +30,7 @@ Shared income between $1.5–$3 per 1000 ad views</p>
               </svg>
               Design
             </a>
-            <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">DEVELOPERS</h2>
+            <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2"style={{ fontFamily: 'Badoom, sans-serif' }}>DEVELOPERS</h2>
             <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">As a developer you can distribute your HTML5 games. We will provide your with a clean and life-time revenue share by monetization through advertisements.…
 </p>
             <a href="#" className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">Read more
@@ -46,7 +46,7 @@ Shared income between $1.5–$3 per 1000 ad views</p>
               </svg>
               Code
             </a>
-            <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">PUBLISHERS</h2>
+            <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-2"style={{ fontFamily: 'Badoom, sans-serif' }}>PUBLISHERS</h2>
             <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">As a publisher you can publish games to your websites and get revenue share from ads. Get access to our huge portfolio of HTML5 games.…</p>
             <a href="#" className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">Read more
               <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
