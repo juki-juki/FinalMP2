@@ -44,10 +44,7 @@ const MainPage = () => {
       <Nav />
       <section
         className="bg-cover h-screen bg-center bg-no-repeat"
-        style={{
-          backgroundImage:
-            "url('https://img.freepik.com/free-vector/space-background-with-planet-landscape_107791-6146.jpg?w=1480&t=st=1699193703~exp=1699194303~hmac=1cbfac2573d27aea76b1af8de67e9d4ed46da043b4fbdde32515427d1e7c7431')"
-        }}
+        
       >
         <div className="px-22 mx-auto max-w-screen-xl text-center py-14 lg:py-26">
           <h1 className="mb-4 text-4xl font-extrabold leading-none text-white md:text-5xl lg:text-6xl">

@@ -85,7 +85,7 @@ const GamePreview = ({ name, imageUrl, gameUrl }) => {
               transform: 'translateZ(75px)',
               transformStyle: 'preserve-3d',
             }}
-            className="absolute inset-4 grid place-content-center rounded-xl bg-white shadow-lg"
+            className="absolute inset-4 grid place-content-center rounded-xl bg-gradient-to-br from-indigo-300 to-violet-300 shadow-lg"
           >
             <img
               style={{
