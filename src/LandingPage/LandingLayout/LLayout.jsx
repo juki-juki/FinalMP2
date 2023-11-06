@@ -12,7 +12,7 @@ import WhatWeDo from './LandingComponents/WhatWeDo.jsx';
 const LLayout = () => {
  
   return (
-    // <div><Example/>
+    
     <div className='relative h-screen'>
       
       <video autoPlay muted loop className='absolute inset-0 w-full h-full object-cover'>

@@ -62,8 +62,8 @@ const MainPage = () => {
         </div>
         <div className="mt-4 flex justify-center">
           <ReactPaginate
-            previousLabel={'Previous'}
-            nextLabel={'Next'}
+           previousLabel={'👈'}
+           nextLabel={'👉'}
             breakLabel={'...'}
             breakClassName={'break-me'}
             pageCount={pageCount}

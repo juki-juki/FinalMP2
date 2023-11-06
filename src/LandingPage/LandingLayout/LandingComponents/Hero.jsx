@@ -11,7 +11,7 @@ const Hero = () => {
     id="home"
     className="w-full px-8 pt-25 pb-0 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto"
     style={{
-      minHeight: '100vh', // Ensure section takes at least 100vh
+      minHeight: '100vh', 
       display: 'grid',
     }}
   >
