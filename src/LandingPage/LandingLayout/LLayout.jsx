@@ -5,6 +5,7 @@ import FacebookChat from './LandingComponents/FacebookChat.jsx';
 import Footer from './LandingComponents/Footer';
 import Hero from './LandingComponents/Hero';
 import HeroSection from './LandingComponents/HeroSection.jsx';
+import Joke from './LandingComponents/Joke.jsx';
 import NavigationBar from './LandingComponents/NavigationBar.jsx';
 import WhatWeDo from './LandingComponents/WhatWeDo.jsx';
 
@@ -27,6 +28,7 @@ const LLayout = () => {
         <BlogSection />
         <FacebookChat/>
         <HeroSection className="p-0" />
+        <Joke/>
         <Footer className="p-0" /> 
       </div>
       </div>
